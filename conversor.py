@@ -1,25 +1,25 @@
+def exchange_pesos_to_dollars (type_peso, dolar_value):
+    pesos = float(input("¿How many pesos " + str(type_peso) + "do you want to convert?: "))
+    dollars = round(pesos / dolar_value,2)
+    print(str(pesos) + " pesos is equal to: " + str(dollars) + " USD dollars")
+
+
 menu = """
-Bienvenido al conversor de monedas 😎
+Welcome to the money exchanger from pesos to dollaras 💲
 
 1 - Pesos colombianos
 2 - Pesos argentinos
 3 - Pesos mexicanos
 
-Elige una opción:
+Please choose an option to wich type of pesos do you want to exchange:
 """
 opcion = int(input(menu))
 
 if opcion == 1:
-    pesos = float(input("¿Cuántos pesos colombianos deseas convertir a dolares?: "))
-    valor_dolar = 3875
+    exchange_pesos_to_dollars("colombianos", 3785)
 elif opcion == 2:
-    pesos = float(input("¿Cuántos pesos argentinos deseas convertir a dolares?: "))
-    valor_dolar = 65
+    exchange_pesos_to_dollars("argentinos", 65)
 elif opcion == 3:
-    pesos = float(input("¿Cuántos pesos mexicanos deseas convertir a dolares?: "))
-    valor_dolar = 24
+    exchange_pesos_to_dollars("mexicanos", 24)
 else:
-    print("Ingresa una opción valida")
-
-dolares = round(pesos / valor_dolar,2)
-print(str(pesos) + " pesos equivalen a: " + str(dolares) + " USD")
+    print("Please choose a valid option")
