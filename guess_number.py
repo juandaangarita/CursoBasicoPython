@@ -19,8 +19,6 @@ def guess_number():
         print('Oops you couldn´t make it😕  ¡Try again! ')
         
 
-
-
 def run():
     print('Welcome! This game is four you to have some fun 😎 \n')
     print('How to play it: \n')
