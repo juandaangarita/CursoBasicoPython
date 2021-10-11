@@ -25,7 +25,6 @@ def factorial(number):
         return fact
 
 
-
 def prime_number_Wilson(number):
     if number == 1:
         return False
@@ -35,12 +34,7 @@ def prime_number_Wilson(number):
         return False
 
 
-def run():
-    number = int(input('Write the number you want to know if it is a prime number: '))
-    if prime_number(number):
-        print(str(number) + ' is a prime number')
-    else:
-        print(str(number) + ' is not a prime number')
+def run():    
     number = int(input('Write the number you want to know if it is a prime number: '))
     if prime_number_Wilson(number):
         print(str(number) + ' is a prime number')
