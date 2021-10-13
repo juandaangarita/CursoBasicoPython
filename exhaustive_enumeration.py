@@ -11,7 +11,7 @@ def exhaustive_enumeration(objective):
 
 
 def run():
-    number = int(input('Please choose a number: '))
+    number = int(input('Please enter a number: '))
     exhaustive_enumeration(number)
 
 
