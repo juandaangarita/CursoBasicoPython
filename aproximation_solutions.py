@@ -1,5 +1,4 @@
-def aproximation_solution(objective):
-    epsilon = 0.001
+def aproximation_solution(objective, epsilon = 0.001):
     step = epsilon ** 2
     answer = 0.0
 
