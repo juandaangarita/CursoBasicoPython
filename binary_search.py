@@ -1,6 +1,5 @@
 def binary_search(objective, epsilon = 0.00001):
-	"""
-	Function to apply the binary search to a square root operation in a number
+	"""	Function to apply the binary search to a square root operation in a number
 
 	:param objective: Number you want to know the square root
 	:type objective: float
